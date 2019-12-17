@@ -1,5 +1,7 @@
 # Terraform ECS Cluster with Nginx Fargate Containers
 
+Blog post --> https://medium.com/@gmusumeci/how-to-deploy-aws-ecs-fargate-containers-step-by-step-using-terraform-545eeac743be
+
 Deploy ECS cluster with Fargate containers
 
 * **terraform.tfvars** --> update AWS credentials and other settings
