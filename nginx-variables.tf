@@ -11,12 +11,12 @@ variable "nginx_app_image" {
 }
 
 variable "nginx_app_port" {
-  description = "Port exposed by the docker image to redirect traffic to"
+  description = "Port exposed by the Docker image to redirect traffic to"
   default     = 80
 }
 
 variable "nginx_app_count" {
-  description = "Number of docker containers to run"
+  description = "Number of Docker containers to run"
   default     = 2
 }
 
