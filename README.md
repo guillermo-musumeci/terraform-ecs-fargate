@@ -1,14 +1,34 @@
 # Terraform ECS Cluster with Nginx Fargate Containers
 
+Deploy ECS cluster with Fargate containers
+
 Blog post --> https://medium.com/@gmusumeci/how-to-deploy-aws-ecs-fargate-containers-step-by-step-using-terraform-545eeac743be
 
-Deploy ECS cluster with Fargate containers
+* **ecs-cluster-policies.tf** --> ECS Cluster policies
+
+* **ecs-cluster-variables.tf** --> ECS Cluster variables
+
+* **ecs-cluster.tf** --> build the ECS Cluster 
+
+* **network.tf** --> create network components (VPC, Subnet, Internet Gateway, Routes)
+
+* **nginx-alb.tf** --> Nginx application load balancer
+
+* **nginx-container.tf** --> Nginx containers
+
+* **nginx-segurity.tf** --> Nginx security groups
+
+* **nginx-variables.tf** --> update Nginx settings
+
+* **nginx.json** --> Nginx application container information
+
+* **provider.tf** --> AWS Provider
 
 * **terraform.tfvars** --> update AWS credentials and other settings
 
-* **ecs-cluster-variables.tf** --> update ECS cluster settings
+* **variables-app.tf** --> application variables
 
-* **nginx-variables.tf** --> update nginx settings
+* **variables-auth.tf** --> AWS authentication variables
 
 ## How to deploy the cluster in AWS
 
